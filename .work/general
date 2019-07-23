@@ -1,0 +1,27 @@
+
+# git
+alias git.branch.new="git checkout -b"
+alias git.branch.ls="git branch"
+alias git.branch.del="git branch -d"
+
+alias git.remote.add="git remote add"
+alias git.remote.list="git remote -v"
+
+alias git.log.one="git log --graph --oneline"
+alias git.log.full="git log --graph --full-diff -p"
+
+alias git.clone="git clone"
+alias git.push="git push"
+alias git.pull="git pull"
+alias git.fetch="git fetch"
+alias git.commit="git commit -m"
+alias git.status="git status"
+alias git.add="git add"
+alias git.merge="git merge --no-ff"
+alias git.diff="git diff"
+alias git.checkout="git checkout"
+alias git.rebase="git rebase"
+alias git.reset="git reset"
+alias git.clean="git clean -fdx"
+
+export PATH="${PATH}"
