@@ -1,0 +1,7 @@
+#! /bin/bash
+
+if [ ! -z ${1} ]; then
+	HEADER=$(hexdump -ve '1/1 "%.2x"' -n 20 ${1} | sed 's/.\{2\}/&\\x/g')
+	HEADER="\\x${HEADER%\\x}"
+	echo ${HEADER}
+fi
