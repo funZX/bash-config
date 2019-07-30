@@ -53,6 +53,10 @@ alias sa-net='source ~/.ssh/agent-vars-netsec'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
+# jump words
+bind '"\e[5C": forward-word'    # control+arrow_right
+bind '"\e[5D": backward-word'   # control+arrow_left
+
 # set a fancy prompt
 parse_git_branch()
 {
