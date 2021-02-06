@@ -1,3 +1,6 @@
+# Ignore wine errors output
+export WINEDEBUG=-all
+
 # Ignore duplicate and don't insert command begin with spaces/tabs
 export HISTCONTROL=ignoreboth
 
@@ -52,6 +55,22 @@ alias sa-net='source ~/.ssh/agent-vars-netsec'
 # clipboard
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+# equery
+alias eqf='equery f'
+alias equ='equery u'
+alias eqh='equery h'
+alias eqa='equery a'
+alias eqb='equery b'
+alias eql='equery l'
+alias eqd='equery d'
+alias eqg='equery g'
+alias eqc='equery c'
+alias eqk='equery k'
+alias eqm='equery m'
+alias eqy='equery y'
+alias eqs='equery s'
+alias eqw='equery w'
 
 # jump words
 bind '"\e[5C": forward-word'    # control+arrow_right
