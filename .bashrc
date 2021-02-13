@@ -1,3 +1,6 @@
+# DOCKER
+export DOCKER_CLI_EXPERIMENTAL=enabled
+
 # Ignore wine errors output
 export WINEDEBUG=-all
 
