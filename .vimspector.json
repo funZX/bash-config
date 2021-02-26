@@ -14,23 +14,6 @@
 				"program": "${file}"
 			}
 		},
-		"Perl - Launch": {
-			"adapter": "vscode-perl-debug",
-			"configuration": {
-				"name": "Perl: Launch current file",
-				"type": "perl",
-				"request": "launch",
-				"exec": "/usr/bin/env perl",
-				"execArgs": [],
-				"stopOnEntry": true,
-				"stopAtEntry": true,
-				"console": "externalTerminal",
-				"sessions": "single",
-				"debugOptions": [],
-				"cwd": "${cwd}",
-				"program": "${file}"
-			}
-		},
 		"C - Launch": {
 			"adapter": "vscode-cpptools",
 			"configuration": {
@@ -47,19 +30,6 @@
 				"MIMode": "gdb",
 				"cwd": "${cwd}",
 				"program": "${fileDirname}/${fileBasenameNoExtension}"
-			}
-		},
-		"Java - Launch": {
-			"adapter": "vscode-java",
-			"configuration": {
-				"name": "Java: Launch current file",
-				"request": "launch",
-				"mainClass": "com.vimspector.test.TestApplication",
-				"sourcePaths": ["${workspaceRoot}/src/main/java"],
-				"classPaths": ["${workspaceRoot}/target/classes"],
-				"args": "hello world!",
-				"stopOnEntry": true,
-				"console": "integratedTerminal"
 			}
 		}
 	}
