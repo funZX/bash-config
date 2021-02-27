@@ -22,7 +22,7 @@
 				"request": "launch",
 				"externalConsole": true,
 				"logging": {
-					"engineLogging": true
+					"engineLogging": false
 				},
 				"stopOnEntry": true,
 				"stopAtEntry": true,
